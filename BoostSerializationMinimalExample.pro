@@ -4,7 +4,8 @@ QT -= gui
 CONFIG += c++11
 
 TARGET = BoostSerializationMinimalExample 
-TARGET_DIR = .
+DESTDIR = ./Bin
+OBJECTS_DIR = ./Build
 
 CONFIG += console
 CONFIG -= app_bundle
